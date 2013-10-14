@@ -1,0 +1,75 @@
+body {
+	margin: 0;
+	padding: 0;
+  min-width: 8.5in;
+	font-size: 10pt;
+	font-family: Palatino;
+  overflow: scroll;
+}
+
+h1 {
+  margin: 0 0 0.5em;
+}
+
+h2 {
+  font-size: 1.3em;
+  margin: 0.5em 1em;
+  font-style: italic;
+}
+
+p {
+  margin: 0.2em 0;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  margin: 0.1em 1em;
+}
+
+#edit {
+  position: fixed;
+  top: 1em;
+  left: 1em;
+  background-color: #ACD;
+  width: 120px;
+  color: #000;
+  border: 3px solid #666;
+  padding: 0.3em;
+  border-radius: 10px;
+  cursor: pointer;
+  font-family: helvetica, sans-serif;
+  font-size: 1.1em;
+  text-decoration: none;
+}
+
+header {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+#wrapper {
+  width: 7.5in;
+  margin: 2em auto;
+  overflow: hidden;
+}
+
+.item {
+  margin: 0.5em 0;
+}
+
+.heading {
+  font-weight: bold;
+}
+
+.subheading {
+  margin-bottom: 0.4em;
+}
+
+#contact {
+  font-weight: bold;
+}

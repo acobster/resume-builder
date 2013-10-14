@@ -1,0 +1,79 @@
+body {
+  font-family: helvetica, sans-serif;
+}
+
+li {
+  list-style-type: none;
+}
+
+button {
+  background-color: #ACD;
+  width: 120px;
+  color: #000;
+  font-size: 0.8em;
+  border: 3px solid #666;
+  padding: 0.3em;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+  button a {
+    text-decoration: none;
+    font-color: inherit;
+  }
+
+#message {
+  width: 600px;
+  color: #080;
+}
+
+  #message.error {
+    color: #B00;
+  }
+
+.item:nth-child(2n) {
+  background-color: #CFDFEA;
+  border-radius: 15px;
+}
+
+.item {
+  width: 600px;
+  padding: 0.5em;
+}
+
+  .item.job {
+    padding: 0.7em 0.5em;
+  }
+
+  .item input {
+    width: 90%;
+    margin: 0.5em;
+  }
+
+  .task {
+    margin: 1em;
+  }
+  
+#controls {
+  z-index: 10;
+  position: fixed;
+  float: left;
+  top: 5em;
+  left: 690px;
+  width: 120px;
+  padding: 1em;
+  background-color: #CFDFEA;
+  border-radius: 15px;
+}
+
+.dialogue {
+  display: none;
+  background: #ACD;
+  border-radius: 15px;
+  background-color: #CFDFEA;
+  border-radius: 15px;
+}
+
+  li .dialogue {
+    padding: 0.5em;
+  }
