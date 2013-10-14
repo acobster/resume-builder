@@ -64,8 +64,6 @@
 
   <?php if( $this->userCanEdit() ) : ?>
   <a id="edit" href="?edit=1">Edit</a>
-<?php else : echo $_SERVER['REMOTE_ADDR']; ?>
-
   <?php endif; ?>
 
 </body>

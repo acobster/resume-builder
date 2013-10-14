@@ -31,11 +31,11 @@ li {
 }
 
 #edit {
-  position: fixed;
+  position: absolute;
   top: 1em;
   left: 1em;
   background-color: #ACD;
-  width: 120px;
+  width: 0.5in;
   color: #000;
   border: 3px solid #666;
   padding: 0.3em;
@@ -44,6 +44,7 @@ li {
   font-family: helvetica, sans-serif;
   font-size: 1.1em;
   text-decoration: none;
+  text-align: center;
 }
 
 header {
